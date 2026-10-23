@@ -1,0 +1,8 @@
+{
+  "uuid": "penink@fedora.local",
+  "name": "Pen Ink Handwriting",
+  "description": "Write with your pen in a handwriting panel and have it typed as text into any app. Opens automatically when you tap a text field with the pen.",
+  "shell-version": ["45", "46", "47", "48", "49", "50"],
+  "settings-schema": "org.gnome.shell.extensions.penink",
+  "version": 1
+}

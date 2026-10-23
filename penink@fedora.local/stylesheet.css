@@ -1,0 +1,41 @@
+.penink-panel {
+  background-color: rgba(30, 30, 34, 0.97);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 18px 18px 0 0;
+  padding: 10px;
+}
+
+.penink-bar {
+  spacing: 6px;
+  padding-bottom: 8px;
+}
+
+.penink-status {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 11pt;
+  padding-left: 6px;
+}
+
+.penink-button {
+  background-color: rgba(255, 255, 255, 0.10);
+  color: white;
+  border-radius: 10px;
+  padding: 6px 16px;
+  min-width: 36px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.penink-button:hover {
+  background-color: rgba(255, 255, 255, 0.20);
+}
+
+.penink-button:active {
+  background-color: rgba(255, 255, 255, 0.32);
+}
+
+.penink-area {
+  background-color: rgba(255, 255, 255, 0.06);
+  border-radius: 12px;
+  min-height: 140px;
+}

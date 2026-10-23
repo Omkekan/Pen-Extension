@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.penink" path="/org/gnome/shell/extensions/penink/">
+
+    <key name="toggle-shortcut" type="as">
+      <default><![CDATA[['<Super><Shift>h']]]></default>
+      <summary>Shortcut to show/hide the handwriting panel</summary>
+    </key>
+
+    <key name="auto-open" type="b">
+      <default>true</default>
+      <summary>Open the panel when a text field is tapped with the pen</summary>
+    </key>
+
+    <key name="backend" type="s">
+      <default>'google'</default>
+      <summary>Recognition engine: 'google' (online, accurate) or 'tesseract' (offline, weak)</summary>
+    </key>
+
+    <key name="language" type="s">
+      <default>'en'</default>
+      <summary>Handwriting language code (en, hi, mr, fr, de, ...)</summary>
+    </key>
+
+    <key name="idle-delay" type="i">
+      <default>1200</default>
+      <summary>Milliseconds of pen inactivity before the ink is converted to text</summary>
+    </key>
+
+    <key name="auto-space" type="b">
+      <default>true</default>
+      <summary>Insert a space between consecutive handwritten chunks</summary>
+    </key>
+
+    <key name="debug" type="b">
+      <default>false</default>
+      <summary>Log pen/text-focus detection details to the journal</summary>
+    </key>
+
+  </schema>
+</schemalist>
